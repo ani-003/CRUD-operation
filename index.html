@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Window</title>
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                    <a href="#">Group 4</a>
+                    <!-- <marquee behavior="" direction="" style="color: white;font-size: large;"> GROUP 4= "ARIJIT","ANIRBAN","ANIL","ASIT","GOURAV"</marquee> -->
+                    <div class="li">
+                    <li> ARIJIT</li>
+                    <li>ANIRBAN</li>
+                    <li> ASIT</li>
+                    <li>ANIL</li>
+                    <li>GOURAB</li>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <div class="heading-container">
+
+    <div class="welc">
+        <h1><p>welcome to our DBMS project,</p><p> &nbsp &nbsp &nbsp &nbsp based on <span>CRUD</span>   operation</p></h1>
+    </div>
+
+    <div class="full-form">
+        <nav>
+           <ul>
+        <li> C = CREATE</li>
+        <li> R = READ</li>
+        <li> U = UPDATE</li>
+        <li> D = DELETE</li>
+    </ul>
+    </nav>
+    </div>
+
+
+
+</div>
+    <div class="name-container">
+<div class="create">
+    <p>C stands for Create. It performs the INSERT statement to create a new record in SQL databases.</p>
+</div>
+<div class="read">
+    <p> R stands for read. It performs to read the insertinf data in a database.</p>
+
+</div>
+<div class="update">
+    <p> U stands for update. It is used to update any details about a database.</p>
+
+</div>
+<div class="delete">
+    <p> D stands for delete. it is used to delete any data in a database .</p>
+
+</div>
+</div>
+
+    
+    <div class="form-creation">
+        <div class="box">
+
+            <input type="text" id="dynamicInput" oninput="updateInputName(this.value)" />
+
+            <select name="type" id="course" placeholder="type">
+
+                <option value="" disabled selected>Select an option</option>
+                
+                <option value="BCA">BCA </option>
+                <option value="B.TECH"> B.TECH</option>
+                <option value="BBA">BBA </option>
+                <option value="B.PHARMA">B.PHARMA </option>
+                <option value="LLB"> LLB</option>
+            </select>
+            
+        </div>  
+        <div class="box-2">
+            <input type="text" name="tab_name" id="tab_name" placeholder="< table name >">
+            
+        </div>
+    </div>
+  
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
+
+<!-- //create table employee(is int, name char, address char); -->

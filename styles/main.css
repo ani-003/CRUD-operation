@@ -1,0 +1,231 @@
+/* Reset some default styles */
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 100%;
+    /* Set max-width to prevent exceeding viewport */
+    overflow-x: hidden;
+}
+
+p {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #ff6600;
+    /* Orange color */
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+
+
+}
+
+.li {
+    /* position: absolute; */
+    display: none;
+}
+
+a:hover+.li {
+    display: block;
+    color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    /* White text color */
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.welc {
+    margin-left: 10px;
+    /* margin-left: 34%; */
+    /* position: absolute; */
+
+}
+
+.name-container {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin-top: 50px;
+}
+
+.create {
+    height: 50px;
+    width: 250px;
+    /* margin-top: 140px;
+    margin-left: 10px; */
+    color: rgb(0, 0, 0);
+    /* position: absolute; */
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.read {
+    height: 50px;
+    width: 250px;
+    /* margin-top: 140px;
+    margin-left: 10px; */
+    color: rgb(0, 0, 0);
+    /* position: absolute; */
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+
+}
+
+.update {
+    height: 50px;
+    width: 250px;
+    /* margin-top: 140px;
+    margin-left: 10px; */
+    color: rgb(0, 0, 0);
+    /* position: absolute; */
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.delete {
+    height: 50px;
+    width: 250px;
+    /* margin-top: 140px;
+    margin-left: 10px; */
+    color: rgb(0, 0, 0);
+    /* position: absolute; */
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+
+/* Tablet Viewport (up to 768px width) */
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+        /* Adjust padding for tablets */
+    }
+
+    .navbar a {
+        font-size: 16px;
+        /* Adjust font size for tablets */
+    }
+}
+
+/* Phone Viewport (up to 480px width) */
+@media screen and (max-width: 480px) {
+    .navbar {
+        padding: 5px;
+    }
+
+    .navbar a {
+        font-size: 14px;
+        /* Adjust font size for phones */
+    }
+
+
+}
+
+nav ul li {
+    color: black;
+    font-size: 25px;
+}
+
+.full-form {
+    width: 200px;
+    height: 150px;
+    background-color: rgb(173, 247, 173);
+    overflow: hidden;
+    /* margin-bottom: 10%; */
+    /* margin-left: 85%;
+    margin-top:0; */
+    /* position: absolute; */
+
+}
+
+.form-creation {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 100px;
+}
+
+.box {
+    width: 295px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 26px;
+    position: absolute;
+    border: 2px solid #ff6600;
+
+}
+
+.box-2 {
+    width: 299px;
+    height: 230px;
+    background-color: #ff6600;
+    border-radius: 10px;
+    margin-left: 50px;
+
+
+}
+
+
+#tab_name {
+    height: 20px;
+    width: 280px;
+    position: relative;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(255, 102, 0);
+    border: none;
+    outline: none;
+}
+
+.box label {
+    font-size: 20px;
+    line-break: 20px;
+    margin-left: 3px;
+    /* margin-top: 10%; */
+}
+
+.box input {
+    /* padding : 8px; */
+    /* line-height: 20px; */
+    font-size: 15px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 20%;
+    margin-left: 35%;
+    color: black;
+    background-color: rgb(16, 170, 232)
+}
+
+button:hover {
+    background-color: rgb(246, 186, 76);
+    color: white;
+}
+
+span {
+    color: #00ED64
+}
